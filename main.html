@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Todo List - Main Page</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <div class="container">
+            <p id="datetime"></p>
+            <h1>Hi, <span id="username"></span>! Here's your To-Do List:</h1>   
+            <form>
+                <input type="text" id="new-item" placeholder="Add a new item...">
+                <div class="button-group">
+                    <button type="button" id="add-btn">Add</button>
+                    <button type="button" id="exit-btn">Exit</button>
+                </div>
+            </form>
+            <div>
+                <ul id="list"></ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
